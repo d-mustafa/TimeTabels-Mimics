@@ -1,0 +1,169 @@
+/* base */
+html {
+  background: #0c6c9d;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  padding: 30px 50px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* timetable */
+#timetable {
+  border: 1px solid red;
+  margin: 0px auto;
+}
+
+.daycolumns,
+.blocks,
+.subject,
+#lunchrow {
+  border: 1px dotted blue;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#toph2 {
+  font-size: 20px;
+}
+
+#timetablehead {
+  background-color: #053561;
+  color: white;
+  font-size: 15px;
+}
+
+.daycolumns {
+  padding: 10px 0px;
+  font-weight: 100;
+}
+
+.blocks {
+  background-color: black;
+  color: white;
+  padding: 25px 10px 15px;
+  font-weight: 500;
+}
+
+.subject {
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+.subject:hover {
+  background-color: #06413a;
+  color: white;
+  cursor: cell;
+  font-size: 12px;
+  transition: font-size 0.5s, background 0.5s, color 0.5s;
+}
+
+#lunchrow {
+  padding: 20px 0px;
+}
+
+.time {
+  font-size: 8px;
+  font-style: italic;
+}
+
+/* socials-tabel */
+
+#socials-table {
+  margin: 20px auto;
+  border: 1px solid 1f67aa;
+  border-radius: 40px;
+  background-color: #1f67aa;
+  padding: 30px;
+}
+
+#socials-table h2 {
+  font-size: 30px;
+}
+
+#socials-table hr {
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+#socials-table img {
+  width: 100px;
+  margin: 1px 50px;
+}
+
+/* college table */
+
+#collegecontainer {
+  background-color: #88cfff;
+  padding-bottom: 20px;
+  margin: 0px -20px;
+  padding-right: 15px;
+  box-shadow: 1.5px 3px 10px 3px gray;
+}
+
+#college-table {
+  margin: 0px auto;
+  border: 2px solid black;
+  border-style: outset;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#college-table td {
+  border: 1px solid black;
+  border-style: inset;
+}
+
+#collegeheader {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #19817c;
+  margin-left: 10px;
+}
+
+#collegetoprow {
+  font-size: 14.2px;
+}
+
+.finalclass {
+  font-size: 14px;
+}
+
+#lefttextlalign {
+  text-align: left;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+#green {
+  color: green;
+}
+
+.maroon {
+  color: maroon;
+}
+
+.lightpink {
+  color: lightpink;
+}
+
+.darkorange {
+  color: darkorange;
+}
+
+.darkred {
+  color: darkred;
+}
